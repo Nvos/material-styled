@@ -1,0 +1,40 @@
+devDependencies:
+  '@types/react': 16.8.4
+  '@types/react-dom': 16.8.2
+  typescript: 3.3.3333
+packages:
+  /@types/prop-types/15.5.9:
+    dev: true
+    resolution:
+      integrity: sha512-Nha5b+jmBI271jdTMwrHiNXM+DvThjHOfyZtMX9kj/c/LUj2xiLHsG/1L3tJ8DjAoQN48cHwUwtqBotjyXaSdQ==
+  /@types/react-dom/16.8.2:
+    dependencies:
+      '@types/react': 16.8.4
+    dev: true
+    resolution:
+      integrity: sha512-MX7n1wq3G/De15RGAAqnmidzhr2Y9O/ClxPxyqaNg96pGyeXUYPSvujgzEVpLo9oIP4Wn1UETl+rxTN02KEpBw==
+  /@types/react/16.8.4:
+    dependencies:
+      '@types/prop-types': 15.5.9
+      csstype: 2.6.2
+    dev: true
+    resolution:
+      integrity: sha512-Mpz1NNMJvrjf0GcDqiK8+YeOydXfD8Mgag3UtqQ5lXYTsMnOiHcKmO48LiSWMb1rSHB9MV/jlgyNzeAVxWMZRQ==
+  /csstype/2.6.2:
+    dev: true
+    resolution:
+      integrity: sha512-Rl7PvTae0pflc1YtxtKbiSqq20Ts6vpIYOD5WBafl4y123DyHUeLrRdQP66sQW8/6gmX8jrYJLXwNeMqYVJcow==
+  /typescript/3.3.3333:
+    dev: true
+    engines:
+      node: '>=4.2.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-JjSKsAfuHBE/fB2oZ8NxtRTk5iGcg6hkYXMnZ3Wc+b2RSqejEqTaem11mHASMnFilHrax3sLK0GDzcJrekZYLw==
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 9
+shrinkwrapVersion: 3
+specifiers:
+  '@types/react': ^16.8.4
+  '@types/react-dom': ^16.8.2
+  typescript: ^3.3.3333
